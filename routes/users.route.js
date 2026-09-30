@@ -30,7 +30,7 @@ if(imageType=='image'){
 
  })
  
-    router.route('./middleware/allowedTo.js')
+    router.route('/')
     .get(verifyToken,usersController.getALLusers)
 
     router.route('/register')
