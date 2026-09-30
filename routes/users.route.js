@@ -30,7 +30,7 @@ if(imageType=='image'){
 
  })
  
-    router.route('/')
+    router.route('/test')
     .get(verifyToken,usersController.getALLusers)
 
     router.route('/register')
